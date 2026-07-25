@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=DM+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", sans-serif;
+  --font-secondary: "DM Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+html, body {
+  overflow-x: clip;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  background-color: #0A0A0F;
+  color: #9CA3AF; /* cool gray as secondary/body text by default */
+  font-family: "DM Sans", sans-serif; /* secondary/body text gets DM Sans */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F5F5F7; /* off-white primary heading text */
+  font-family: "Poppins", sans-serif; /* headings get Poppins */
+}
+
+/* Glowing text and boxes */
+.glow-text-purple {
+  text-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.glow-border-purple {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.05);
+}
+
+.glow-border-purple:hover {
+  box-shadow: 0 0 25px rgba(139, 92, 246, 0.15);
+}

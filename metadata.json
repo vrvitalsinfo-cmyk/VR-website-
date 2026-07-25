@@ -1,0 +1,6 @@
+{
+  "name": "V R Vitals Trading Academy",
+  "description": "Stock market trading academy, price action mentorship, automated scan results, and macroeconomic insights platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
