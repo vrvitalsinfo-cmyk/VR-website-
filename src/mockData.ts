@@ -213,19 +213,19 @@ export const MOCK_TRADE_SETUPS: TradeSetup[] = [
     chartData: generateMockCandles(23800, 45, 'ascending_triangle')
   },
   {
-    id: 'setup-btc',
-    symbol: 'BTCUSD',
+    id: 'setup-aapl',
+    symbol: 'AAPL',
     direction: 'long',
     timeframe: '4H Chart',
-    entry: 92400.00,
-    stopLoss: 90800.00,
-    takeProfit: 97200.00,
+    entry: 192.00,
+    stopLoss: 188.00,
+    takeProfit: 204.00,
     riskReward: 3.0,
-    rationale: 'Completed a Cup & Handle consolidation pattern above $90k. Strong volume bars validate the initial handle breakout. MACD crossover above the zero-line indicates surging bullish momentum.',
-    support: [89500, 90800, 92000],
-    resistance: [93500, 95000, 98000],
-    videoMockTitle: 'Bitcoin Institutional Accumulation & Cup-Handle Breakdown',
-    chartData: generateMockCandles(88000, 45, 'cup_and_handle')
+    rationale: 'Completed a Cup & Handle consolidation pattern above $190. Strong volume bars validate the initial handle breakout. MACD crossover above the zero-line indicates surging bullish momentum.',
+    support: [185, 188, 190],
+    resistance: [195, 200, 205],
+    videoMockTitle: 'Apple Institutional Accumulation & Cup-Handle Breakdown',
+    chartData: generateMockCandles(184, 45, 'cup_and_handle')
   },
   {
     id: 'setup-reliance',
@@ -275,13 +275,13 @@ export const INITIAL_SCANNER_ALERTS: ScannerAlert[] = [
   },
   {
     id: 'scan-2',
-    symbol: 'BTCUSD',
+    symbol: 'AAPL',
     pattern: 'Cup & Handle Breakout',
     type: 'breakout',
     timeframe: '1h',
-    price: 92840.00,
+    price: 192.84,
     change: 4.82,
-    volume24h: '$41.2B',
+    volume24h: '$8.2B',
     timestamp: '09:42 AM',
     strength: 'High'
   },
@@ -344,7 +344,7 @@ export const MACRO_INDICATORS: MacroIndicator[] = [
     trend: 'down',
     impact: 'High',
     description: 'Central bank adjusted rates down by 25bps to address stabilizing inflation and support labor markets.',
-    context: 'Lower interest rates decrease borrowing costs, generally driving a transition from cash into equities. When interest rates drop, treasury yields follow, making risk-on assets (stocks/crypto) more lucrative.'
+    context: 'Lower interest rates decrease borrowing costs, generally driving a transition from cash into equities. When interest rates drop, treasury yields follow, making risk-on assets such as US equities more lucrative.'
   },
   {
     title: 'US 10-Year Bond Yield',
