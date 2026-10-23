@@ -191,7 +191,7 @@ export default function Home({ setCurrentTab, onUnlockClick }: HomeProps) {
             <p className="text-[11px] uppercase tracking-wider text-slate-500 font-mono">Students Trained Globally</p>
           </div>
           <div className="space-y-1 border-t sm:border-t-0 pt-4 sm:pt-0">
-            <p className="text-3xl font-extrabold text-white tracking-tight bg-gradient-to-r from-teal-300 to-[#A78BFA] bg-clip-text text-transparent">NSE, BSE</p>
+            <p className="text-3xl font-extrabold text-white tracking-tight bg-gradient-to-r from-teal-300 to-[#A78BFA] bg-clip-text text-transparent">NSE, BSE, EUROPEAN MARKETS</p>
             <p className="text-[11px] uppercase tracking-wider text-slate-500 font-mono">Asset Regimes Covered</p>
           </div>
         </div>
